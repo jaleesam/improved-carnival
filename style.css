@@ -1,3 +1,4 @@
+/* TODO: Move text animation from top to middle */
 .spilt {
     height: 100%;
     width: 50%;
@@ -47,3 +48,5 @@
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
  }
+
+ 
