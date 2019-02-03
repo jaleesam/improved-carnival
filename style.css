@@ -22,9 +22,9 @@
 p {
     font-family:'Barlow Semi Condensed', sans-serif;
 }
-
+    
 .img-main {
-    background-image: url(https://placeimg.com/1500/480/tech);
+    background-image: url(https://placeimg.com/1500/980/tech);
     background-repeat: no-repeat;
     background-position: left top;
     padding-top:95px;
@@ -79,7 +79,7 @@ p {
   }
 }
 
-.example-2
+.enter-btn
 {
   float: left;
   margin: 75px 40px 0 40px;
