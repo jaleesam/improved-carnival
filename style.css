@@ -98,6 +98,24 @@ p {
   animation-delay: 3s;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+/* Responsive layout - makes a two column-layout  */
+  .column {
+    flex: 50%;
+    max-width: 50%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 
 h1 { 
 	font: bold 300% Consolas, Monaco, monospace;
